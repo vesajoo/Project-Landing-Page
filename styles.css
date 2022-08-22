@@ -8,7 +8,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #1F2937;
 }
 
@@ -31,4 +31,113 @@ a{
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding:50px;
+}
+
+.heroText {
+    width: 400px;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero button{
+    background-color: #3882F6;
+    border:none;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding:10px;
+    border-radius: 10%;
+}
+
+.hero img{
+    width: 400px;
+    height:auto;
+    background-color: grey;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.card img {
+    width:100px;
+    height:100px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+
+.quote {
+    padding:50px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote h2{
+    width: 800px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.signUp button{
+    background-color: #3882F6;
+    border:white 2px solid;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding:10px;
+    border-radius: 10%;
+}
+
+.signBox{
+    width:900px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6; 
+    color: #F9FAF8;
+    border-radius: 25px;
+}
+
+.footer {
+    display:flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
